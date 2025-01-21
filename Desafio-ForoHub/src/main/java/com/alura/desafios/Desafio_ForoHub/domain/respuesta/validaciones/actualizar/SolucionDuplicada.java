@@ -1,10 +1,10 @@
-package com.gep.foro_alura.domain.respuesta.validaciones.actualizar;
+package com.alura.desafios.Desafio_ForoHub.domain.respuesta.validaciones.actualizar;
 
-import com.gep.foro_alura.domain.respuesta.ActualizarRespuestaDTO;
-import com.gep.foro_alura.domain.respuesta.Respuesta;
-import com.gep.foro_alura.domain.respuesta.RespuestaRepository;
-import com.gep.foro_alura.domain.topico.Estado;
-import com.gep.foro_alura.domain.topico.TopicoRepository;
+import com.alura.desafios.Desafio_ForoHub.domain.respuesta.ActualizarRespuestaDTO;
+import com.alura.desafios.Desafio_ForoHub.domain.respuesta.Respuesta;
+import com.alura.desafios.Desafio_ForoHub.domain.respuesta.RespuestaRepository;
+import com.alura.desafios.Desafio_ForoHub.domain.topico.Estado;
+import com.alura.desafios.Desafio_ForoHub.domain.topico.TopicoRepository;
 import jakarta.validation.ValidationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -1,7 +1,7 @@
-package com.gep.foro_alura.domain.usuario.validaciones.actualizar;
+package com.alura.desafios.Desafio_ForoHub.domain.usuario.validaciones.actualizar;
 
-import com.gep.foro_alura.domain.usuario.ActualizarUsuarioDTO;
-import com.gep.foro_alura.domain.usuario.UsuarioRepository;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.ActualizarUsuarioDTO;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.UsuarioRepository;
 import jakarta.validation.ValidationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

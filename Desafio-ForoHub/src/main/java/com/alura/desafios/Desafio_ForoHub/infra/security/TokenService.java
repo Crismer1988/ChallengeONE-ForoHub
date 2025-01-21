@@ -1,11 +1,11 @@
-package com.gep.foro_alura.infra.security;
+package com.alura.desafios.Desafio_ForoHub.infra.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTCreationException;
 import com.auth0.jwt.exceptions.JWTVerificationException;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import com.gep.foro_alura.domain.usuario.Usuario;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.Usuario;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -52,7 +52,7 @@ public class TokenService {
             verifier.getSubject();
 
         }catch (JWTVerificationException e){
-            System.out.println(e.toString()); ////Esto podría mejorarse para que devuelva "token no válido" o "token caducado" en el cuerpo y no en la consola
+            System.out.println(e.toString());
         }
         if (verifier.getSubject() == null){
             throw new RuntimeException("Invalid verifier");

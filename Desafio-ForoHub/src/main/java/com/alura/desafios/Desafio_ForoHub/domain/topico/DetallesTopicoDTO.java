@@ -1,6 +1,6 @@
-package com.gep.foro_alura.domain.topico;
+package com.alura.desafios.Desafio_ForoHub.domain.topico;
 
-import com.gep.foro_alura.domain.curso.Categoria;
+import com.alura.desafios.Desafio_ForoHub.domain.curso.Categoria;
 
 import java.time.LocalDateTime;
 

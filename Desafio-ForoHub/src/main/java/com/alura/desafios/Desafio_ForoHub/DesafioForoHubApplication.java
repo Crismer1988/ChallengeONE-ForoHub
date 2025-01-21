@@ -1,13 +1,13 @@
-package com.gep.foro_alura;
+package com.alura.desafios.Desafio_ForoHub;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ForoAluraApplication {
+public class DesafioForoHubApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ForoAluraApplication.class, args);
+		SpringApplication.run(DesafioForoHubApplication.class, args);
 	}
 
 }

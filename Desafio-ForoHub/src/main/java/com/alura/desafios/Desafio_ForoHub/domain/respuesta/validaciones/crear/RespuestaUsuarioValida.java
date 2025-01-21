@@ -1,8 +1,8 @@
-package com.gep.foro_alura.domain.respuesta.validaciones.crear;
+package com.alura.desafios.Desafio_ForoHub.domain.respuesta.validaciones.crear;
 
 
-import com.gep.foro_alura.domain.respuesta.CrearRespuestaDTO;
-import com.gep.foro_alura.domain.usuario.UsuarioRepository;
+import com.alura.desafios.Desafio_ForoHub.domain.respuesta.CrearRespuestaDTO;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.UsuarioRepository;
 import jakarta.validation.ValidationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -1,8 +1,8 @@
-package com.gep.foro_alura.domain.topico;
+package com.alura.desafios.Desafio_ForoHub.domain.topico;
 
 
-import com.gep.foro_alura.domain.curso.Curso;
-import com.gep.foro_alura.domain.usuario.Usuario;
+import com.alura.desafios.Desafio_ForoHub.domain.curso.Curso;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.Usuario;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

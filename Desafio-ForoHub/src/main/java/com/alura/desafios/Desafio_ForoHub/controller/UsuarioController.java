@@ -1,9 +1,9 @@
-package com.gep.foro_alura.controller;
+package com.alura.desafios.Desafio_ForoHub.controller;
 
 
-import com.gep.foro_alura.domain.usuario.*;
-import com.gep.foro_alura.domain.usuario.validaciones.actualizar.ValidarActualizarUsuario;
-import com.gep.foro_alura.domain.usuario.validaciones.crear.ValidarCrearUsuario;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.*;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.validaciones.actualizar.ValidarActualizarUsuario;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.validaciones.crear.ValidarCrearUsuario;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

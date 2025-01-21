@@ -1,4 +1,4 @@
-package com.gep.foro_alura.domain.topico;
+package com.alura.desafios.Desafio_ForoHub.domain.topico;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

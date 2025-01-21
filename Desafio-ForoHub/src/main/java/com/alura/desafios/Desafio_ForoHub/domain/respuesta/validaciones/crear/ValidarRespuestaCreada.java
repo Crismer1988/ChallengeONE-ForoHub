@@ -1,6 +1,6 @@
-package com.gep.foro_alura.domain.respuesta.validaciones.crear;
+package com.alura.desafios.Desafio_ForoHub.domain.respuesta.validaciones.crear;
 
-import com.gep.foro_alura.domain.respuesta.CrearRespuestaDTO;
+import com.alura.desafios.Desafio_ForoHub.domain.respuesta.CrearRespuestaDTO;
 
 public interface ValidarRespuestaCreada {
     public void validate(CrearRespuestaDTO data);

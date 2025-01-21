@@ -1,4 +1,4 @@
-package com.gep.foro_alura.domain.respuesta;
+package com.alura.desafios.Desafio_ForoHub.domain.respuesta;
 
 import java.time.LocalDateTime;
 

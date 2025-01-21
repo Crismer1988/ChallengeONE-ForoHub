@@ -1,9 +1,10 @@
-package com.gep.foro_alura.controller;
+package com.alura.desafios.Desafio_ForoHub.controller;
 
 
-import com.gep.foro_alura.domain.usuario.AutenticacionUsuarioDTO;
-import com.gep.foro_alura.domain.usuario.Usuario;
-import com.gep.foro_alura.infra.security.TokenService;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.AutenticacionUsuarioDTO;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.Usuario;
+import com.alura.desafios.Desafio_ForoHub.infra.security.JWTtokenDTO;
+import com.alura.desafios.Desafio_ForoHub.infra.security.TokenService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

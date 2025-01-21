@@ -1,6 +1,6 @@
-package com.gep.foro_alura.infra.security;
+package com.alura.desafios.Desafio_ForoHub.infra.security;
 
-import com.gep.foro_alura.domain.usuario.UsuarioRepository;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

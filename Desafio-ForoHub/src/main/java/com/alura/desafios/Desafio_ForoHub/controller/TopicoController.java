@@ -1,16 +1,16 @@
-package com.gep.foro_alura.controller;
+package com.alura.desafios.Desafio_ForoHub.controller;
 
 
-import com.gep.foro_alura.domain.curso.Curso;
-import com.gep.foro_alura.domain.curso.CursoRepository;
-import com.gep.foro_alura.domain.respuesta.DetalleRespuestaDTO;
-import com.gep.foro_alura.domain.respuesta.Respuesta;
-import com.gep.foro_alura.domain.respuesta.RespuestaRepository;
-import com.gep.foro_alura.domain.topico.*;
-import com.gep.foro_alura.domain.topico.validaciones.actualizar.ValidarTopicoActualizado;
-import com.gep.foro_alura.domain.topico.validaciones.crear.ValidarTopicoCreado;
-import com.gep.foro_alura.domain.usuario.Usuario;
-import com.gep.foro_alura.domain.usuario.UsuarioRepository;
+import com.alura.desafios.Desafio_ForoHub.domain.curso.Curso;
+import com.alura.desafios.Desafio_ForoHub.domain.curso.CursoRepository;
+import com.alura.desafios.Desafio_ForoHub.domain.respuesta.DetalleRespuestaDTO;
+import com.alura.desafios.Desafio_ForoHub.domain.respuesta.Respuesta;
+import com.alura.desafios.Desafio_ForoHub.domain.respuesta.RespuestaRepository;
+import com.alura.desafios.Desafio_ForoHub.domain.topico.*;
+import com.alura.desafios.Desafio_ForoHub.domain.topico.validaciones.actualizar.ValidarTopicoActualizado;
+import com.alura.desafios.Desafio_ForoHub.domain.topico.validaciones.crear.ValidarTopicoCreado;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.Usuario;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.UsuarioRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

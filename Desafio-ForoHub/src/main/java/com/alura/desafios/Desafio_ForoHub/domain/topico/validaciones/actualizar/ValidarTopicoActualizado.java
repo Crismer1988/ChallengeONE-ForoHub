@@ -1,6 +1,6 @@
-package com.gep.foro_alura.domain.topico.validaciones.actualizar;
+package com.alura.desafios.Desafio_ForoHub.domain.topico.validaciones.actualizar;
 
-import com.gep.foro_alura.domain.topico.ActualizarTopicoDTO;
+import com.alura.desafios.Desafio_ForoHub.domain.topico.ActualizarTopicoDTO;
 
 public interface ValidarTopicoActualizado {
 

@@ -1,4 +1,4 @@
-package com.gep.foro_alura.domain.usuario;
+package com.alura.desafios.Desafio_ForoHub.domain.usuario;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

@@ -1,4 +1,4 @@
-package com.gep.foro_alura.infra.security;
+package com.alura.desafios.Desafio_ForoHub.infra.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -19,7 +19,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableWebSecurity
 public class SecurityConfigurations {
     @Autowired
-    private SecurityFilter securityFilter;
+    private com.alura.desafios.Desafio_ForoHub.infra.security.SecurityFilter securityFilter;
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception{

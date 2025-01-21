@@ -1,4 +1,4 @@
-package com.gep.foro_alura.domain.topico;
+package com.alura.desafios.Desafio_ForoHub.domain.topico;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

@@ -1,4 +1,6 @@
-package com.gep.foro_alura.domain.usuario;
+package com.alura.desafios.Desafio_ForoHub.domain.usuario;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.Usuario;
+
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -25,8 +27,6 @@ public class Usuario implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    //Siempre que una columna de la tabla de la BD se llame diferente a la de la clase, en la clase se debe agregar @Column con el nombre de la columna definida en la BD
-    //@Column(name="username")
     private String username;
     private String password;
 

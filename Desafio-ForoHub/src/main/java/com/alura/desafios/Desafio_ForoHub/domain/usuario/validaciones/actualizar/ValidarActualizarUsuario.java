@@ -1,6 +1,6 @@
-package com.gep.foro_alura.domain.usuario.validaciones.actualizar;
+package com.alura.desafios.Desafio_ForoHub.domain.usuario.validaciones.actualizar;
 
-import com.gep.foro_alura.domain.usuario.ActualizarUsuarioDTO;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.ActualizarUsuarioDTO;
 
 public interface ValidarActualizarUsuario {
     public void validate(ActualizarUsuarioDTO data);

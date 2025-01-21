@@ -1,4 +1,4 @@
-package com.gep.foro_alura.domain.curso;
+package com.alura.desafios.Desafio_ForoHub.domain.curso;
 
 
 import jakarta.persistence.*;

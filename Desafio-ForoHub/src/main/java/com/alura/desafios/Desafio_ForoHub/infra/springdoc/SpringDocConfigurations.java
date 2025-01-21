@@ -1,4 +1,4 @@
-package com.gep.foro_alura.infra.springdoc;
+package com.alura.desafios.Desafio_ForoHub.infra.springdoc;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;

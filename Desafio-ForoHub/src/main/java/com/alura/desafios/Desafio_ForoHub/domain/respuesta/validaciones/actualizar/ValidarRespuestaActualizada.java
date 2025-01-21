@@ -1,6 +1,6 @@
-package com.gep.foro_alura.domain.respuesta.validaciones.actualizar;
+package com.alura.desafios.Desafio_ForoHub.domain.respuesta.validaciones.actualizar;
 
-import com.gep.foro_alura.domain.respuesta.ActualizarRespuestaDTO;
+import com.alura.desafios.Desafio_ForoHub.domain.respuesta.ActualizarRespuestaDTO;
 
 public interface ValidarRespuestaActualizada {
 

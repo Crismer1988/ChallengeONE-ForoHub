@@ -1,14 +1,14 @@
-package com.gep.foro_alura.controller;
+package com.alura.desafios.Desafio_ForoHub.controller;
 
 
-import com.gep.foro_alura.domain.respuesta.*;
-import com.gep.foro_alura.domain.respuesta.validaciones.actualizar.ValidarRespuestaActualizada;
-import com.gep.foro_alura.domain.respuesta.validaciones.crear.ValidarRespuestaCreada;
-import com.gep.foro_alura.domain.topico.Estado;
-import com.gep.foro_alura.domain.topico.Topico;
-import com.gep.foro_alura.domain.topico.TopicoRepository;
-import com.gep.foro_alura.domain.usuario.Usuario;
-import com.gep.foro_alura.domain.usuario.UsuarioRepository;
+import com.alura.desafios.Desafio_ForoHub.domain.respuesta.*;
+import com.alura.desafios.Desafio_ForoHub.domain.respuesta.validaciones.actualizar.ValidarRespuestaActualizada;
+import com.alura.desafios.Desafio_ForoHub.domain.respuesta.validaciones.crear.ValidarRespuestaCreada;
+import com.alura.desafios.Desafio_ForoHub.domain.topico.Estado;
+import com.alura.desafios.Desafio_ForoHub.domain.topico.Topico;
+import com.alura.desafios.Desafio_ForoHub.domain.topico.TopicoRepository;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.Usuario;
+import com.alura.desafios.Desafio_ForoHub.domain.usuario.UsuarioRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

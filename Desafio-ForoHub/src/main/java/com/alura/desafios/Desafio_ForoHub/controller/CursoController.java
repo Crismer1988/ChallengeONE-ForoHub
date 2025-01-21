@@ -1,7 +1,7 @@
-package com.gep.foro_alura.controller;
+package com.alura.desafios.Desafio_ForoHub.controller;
 
 
-import com.gep.foro_alura.domain.curso.*;
+import com.alura.desafios.Desafio_ForoHub.domain.curso.*;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -29,9 +29,9 @@ public class CursoController {
     @PostMapping
     @Transactional
     @Operation(summary = "Registrar un nuevo curso en la BD.")
-    public ResponseEntity<DetalleCursoDTO> crearTopico(@RequestBody @Valid CrearCursoDTO crearCursoDTO, //Para indicar a spring que es un parametro se usa requestBody y @Valid valida que los datos en DatosRegistroMédico todo sea válido, lleguen correctamente
-                                                       UriComponentsBuilder uriBuilder){  // Genera la URL URI a retornar donde esta el registro creado
-        Curso curso = new Curso(crearCursoDTO); //crearCursoDTO debe estar definido en la clase Curso como constructor con lo parametros a mostrar
+    public ResponseEntity<DetalleCursoDTO> crearTopico(@RequestBody @Valid CrearCursoDTO crearCursoDTO,
+                                                       UriComponentsBuilder uriBuilder){
+        Curso curso = new Curso(crearCursoDTO);
         repository.save(curso);
         var uri = uriBuilder.path("/cursos/{i}").buildAndExpand(curso.getId()).toUri();
 

@@ -1,6 +1,5 @@
-package com.gep.foro_alura.domain.usuario;
+package com.alura.desafios.Desafio_ForoHub.domain.usuario;
 
-import com.gep.foro_alura.domain.topico.Topico;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
